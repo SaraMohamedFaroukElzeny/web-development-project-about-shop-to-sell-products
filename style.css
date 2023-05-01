@@ -1,0 +1,74 @@
+ h4,h5,h6 {
+  color: #34495E;
+}
+h1, h3 {
+  color:black;
+}
+
+label {
+	border: 1px solid black;
+}
+
+.colornew {
+	color:#34495E;
+}
+
+.theFlo {
+	float: right;	
+}
+
+.theFlo:hover {
+	cursor: pointer;
+}
+
+.lines {
+	display: inline-block;
+}
+
+.lines2 {
+	padding-left: 10%;
+	text-align: center;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #000000; /* Green */
+  color: #4CAF50;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type=number] {
+        /*for absolutely positioning spinners*/
+        position: relative; 
+        padding: 5px;
+        padding-right: 10px;
+      }
+
+      input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button {
+        opacity: 1;
+      }
+
+      input[type=number]::-webkit-outer-spin-button, 
+      input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: inner-spin-button !important;
+        width: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+      }
